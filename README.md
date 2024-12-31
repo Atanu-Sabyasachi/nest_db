@@ -93,10 +93,20 @@ if (usersCollection == null || productsCollection == null) {
 - #### Create (Write):
 
 ```dart
-await usersCollection.write('1', {'id': '1', 'name': 'Alice', 'age': 30, 'email': 'alice@example.com', "address": {
-          "street": {"name": "Main St", "number": 123},
-          "city": "New York"
-        }});
+await usersCollection.write('1',
+{
+  id: '1',
+  name: 'Alice',
+  age: 30,
+  email: 'alice@example.com',
+  address: {
+    street: {
+      name: "Main St",
+      number: 123
+    },
+    city: "New York"
+  }
+});
 ```
 
 - #### Read:
@@ -104,23 +114,39 @@ await usersCollection.write('1', {'id': '1', 'name': 'Alice', 'age': 30, 'email'
 ```dart
 final user = await usersCollection.read('1');
 print(user?.data); 
+
 // Output: 
-{id: 1, name: Alice, age: 30, email: alice@example.com, createdAt: ..., updatedAt: ...}
+{
+  id: "1",
+  name: "Alice",
+  age: 30,
+  email: "alice@example.com",
+  createdAt: ..., // Actual Date object
+  updatedAt: ...  // Actual Date object
+}
 ```
 
 - #### Update:
 
 ```dart
-await usersCollection.update('1', {'age': 31, 'email': '[email address removed]', "address": {
-          "street": {"name": "Main St", "number": 124},
-          "city": "New York"
-        }});
+await usersCollection.update('1', 
+{
+  age: 31,
+  email: '[email address removed]',
+  address: {
+    street: {
+      name: "Main St",
+      number: 124
+    },
+    city: "New York"
+  }
+});
 ```
 
 - #### Delete:
 
 ```dart
-await usersCollection.delete('1');
+await usersCollection.delete('your-doc-id');
 ```
 
 ### 6. Advanced Queries:
