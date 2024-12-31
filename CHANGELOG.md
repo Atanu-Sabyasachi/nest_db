@@ -7,7 +7,7 @@ All notable changes to this package will be documented in this file.
 - Some issues in doc are fixed.
 
 
-## [.1.0] - 2024-12-31
+## [0.1.0] - 2024-12-31
 ### Added
 - **Initial release** of the `Nest DB` package for Flutter.
   
