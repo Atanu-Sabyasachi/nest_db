@@ -1,5 +1,16 @@
 # Nest DB
 
+<style>
+mark {
+  background-color: yellow; /* Example: Change to light blue */
+}
+</style>
+
+<mark>
+Beta Version
+</mark>
+
+<br>
 Nest DB is a lightweight, in-memory database with persistent storage capabilities designed specifically for Flutter applications. It provides a simple yet powerful way to manage structured data within your app, offering features like schema validation, reactive updates, and persistent storage.
 
 ## Features
@@ -28,7 +39,7 @@ dependencies:
 - Import the nest package in your Dart files:
 
 ```dart
-import 'package:nest_db/nest.dart';
+import 'package:nest_db/nest_db.dart';
 ```
 ### 3. Initialization:
 
@@ -304,6 +315,6 @@ This `README.md` covers installation, usage, features, property descriptions, an
 
 -------------------------------------------------------------
 
-**Version**: 1.0.0  
+**Version**: 0.1.1  
 **Author**: Atanu Sabyasachi Jena  
 **License**: MIT
