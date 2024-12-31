@@ -1,3 +1,8 @@
+library;
+
+export 'src/collections/collection_manager.dart';
+export 'src/collections/schema.dart';
+
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';

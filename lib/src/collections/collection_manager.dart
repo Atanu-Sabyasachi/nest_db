@@ -3,7 +3,6 @@ import 'dart:math' as math;
 
 import 'package:nest_db/nest_db.dart';
 import 'package:nest_db/src/collections/document.dart';
-import 'package:nest_db/src/collections/schema.dart';
 import 'package:nest_db/src/db/file_entry.dart';
 import 'package:nest_db/src/enums.dart';
 
