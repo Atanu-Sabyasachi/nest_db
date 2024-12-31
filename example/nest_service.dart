@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:nest_db/nest.dart';
+import 'package:nest_db/nest_db.dart';
 import 'package:nest_db/src/collections/collection_manager.dart';
 import 'package:nest_db/src/collections/schema.dart';
 import 'user_model.dart';
