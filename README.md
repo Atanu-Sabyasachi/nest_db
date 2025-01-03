@@ -329,7 +329,7 @@ db.watchCollection('users').listen((change) {
 ## Contributing
 Contributions are welcome! If you find bugs or have feature suggestions, feel free to create an issue or submit a pull request. Make sure to follow the contribution guidelines.
 
-- Report bugs and request features via [GitHub Issues](https://github.com/Atanu-Sabyasachi/flutter_env_config/issues)
+- Report bugs and request features via [GitHub Issues](https://github.com/Atanu-Sabyasachi/nest_db/issues)
 - Engage in discussions and help users solve their problems/questions in the [Discussions](https://github.com/discussions)
 
 ## License
@@ -341,6 +341,6 @@ This `README.md` covers installation, usage, features, property descriptions, an
 
 -------------------------------------------------------------
 
-**Version**: 1.0.1  
+**Version**: 1.0.2  
 **Author**: Atanu Sabyasachi Jena  
 **License**: MIT

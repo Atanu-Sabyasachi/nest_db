@@ -2,13 +2,17 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.0.2]
+### Fixed
+- Issues in docs.
+
 ## [1.0.1]
 ### Fixed
-- Some issues in exporting files are fixed.
+- Issues in exporting files.
 
 ## [0.1.1]
 ### Fixed
-- Some issues in doc are fixed.
+- Issues in docs.
 
 ## [0.1.0] - 2024-12-31
 ### Added
