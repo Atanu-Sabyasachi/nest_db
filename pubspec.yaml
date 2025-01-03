@@ -1,0 +1,28 @@
+name: nest_db
+description: "Lightweight, in-memory NoSQL database for Dart/Flutter with persistent storage, schema validation, and optional encryption."
+version: 1.0.2
+repository: https://github.com/Atanu-Sabyasachi/nest_db
+homepage: https://github.com/Atanu-Sabyasachi/nest_db
+funding:
+  - https://buymeacoffee.com/atanusabyasachi
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  encrypt: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+platforms:
+  android:
+  ios:
+
+flutter:
